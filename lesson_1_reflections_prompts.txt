@@ -1,0 +1,21 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Viewing the difference between to files eliminates the need to trawl through every single line of code, since it only shows the lines that are different (which is presumably where the bug in your code was caused).
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+You can easily revert back to a recent version if the current version you are working on is not working and you can't figure out why.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros: Versions are probably complete and functional, since you committed after fixing a specific issue or adding a function, rather than at an aribitrary time period or number of lines.
+Cons: If you've been working on a file for a while without committing or saving and your PC crashes, you could lose a lot of progress.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Because version control systems like Git are built for programmers, while cloud storage services like Google Docs and Dropbox are for general users. Also, it would take up a ridiculous amount of space if one of these cloud storage companies saved versions of all of your documents in a directory every time you changed just one of them (e.g. if you photoshopped one image out of a directory containing 1,000).
+
+How can you use the commands git log and git diff to view the history of files?
+Git log lists all the commits that have been made to a repository in reverse chronological order. You can keep scrolling down all the way back to the first commit to identify a particular commit you are looking for (as long as the comment submitted with the commit is meaningful...). You can then use the Git diff command to view the differences between that commit and the one before across all files that are part of the repository.
+
+How might using version control make you more confident to make changes that could break something?
+You know that you can always roll back to a previous commit if your changes break something, so you'd be more willing to take the risk.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I'd like to try to commit my code from the first Nanodegree project to a Github repository.
