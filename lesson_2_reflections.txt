@@ -9,3 +9,6 @@ You can use the staging area to only add updated files to the repository. So if 
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 If you want to try out a new experimental feature without messing with the master branch, or you want to develop multiple diverging projects based on the current master branch. Branches allow you to make changes to your project while leaving the master code intact.
+
+How do the diagrams help you visualize the branch structure?
+Diagramming the branches and commits on the branches helps you visualize the development of your code and see which commits are reachable on each branch.
