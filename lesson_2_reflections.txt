@@ -15,3 +15,6 @@ Diagramming the branches and commits on the branches helps you visualize the dev
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 When we merge two branches together, a new commit is made that incorporates all of the changes made between their common ancestor (where they first branched) and the heads of both branches. So all of the changes made in both branches are represented in the new branch head. On a branch diagram, the new commit is shown as the child of both former branch heads because of this.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git's automatic merging takes care of merging all of the straightforward changes you and others may have made to different branches of a project, freeing up your time as developers to focus on manually merging changes that are not so easily handled.
