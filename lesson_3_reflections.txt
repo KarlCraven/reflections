@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+1. You might be working collaboratively.
+2. You might be working on your project from multiple machines.
+3. You might want your repository to be publicly available.
+4. You may just want a copy of your work backed up in the cloud.
