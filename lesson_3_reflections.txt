@@ -14,3 +14,6 @@ Branches are separate development paths of a repository, either locally or remot
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Again, I'm not really sure.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without git or GitHub I think I would probably use DropbBox to collaborate. However, I would have to develop a mutually agreed-upon protocal for how we would collaborate to replace the functionality of GitHub and make sure we always knew which copies of the files were the current master branch head, or the head of any alternate development branches. A log of the history of commits would have to be maintained separately for each branch. It would not require my collaboraters to be able to use the command line to manage commits, though, which might be easier for some people (as long as they understand and adhere to the established protocol).
